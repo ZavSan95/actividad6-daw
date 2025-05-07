@@ -14,6 +14,9 @@ Este proyecto consiste en la creación de una portada de diario digital con dise
 - `assets/css/responsive.css`: Media queries para adaptar el diseño a pantallas más grandes.
 - `assets/img/`: Carpeta que contiene las imágenes utilizadas en la portada.
 
+## GITHUB PAGE
+
+https://zavsan95.github.io/actividad6-daw/
 
 ## Autor
 
