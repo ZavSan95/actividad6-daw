@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suscripción - Diario Digital</title>
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <link rel="stylesheet" href="assets/css/form.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Portal de Noticias</div>
+    <div class="date">7 de mayo de 2025</div>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Política</a></li>
+        <li><a href="#">Economía</a></li>
+        <li><a href="#">Deportes</a></li>
+        <li><a href="#">Cultura</a></li>
+      </ul>
+      <div class="hamburger">☰</div>
+    </nav>
+  </header>
+
+  <main class="main-content">
+
+    <section class="form-container">
+      <h2 id="saludo">HOLA</h2>
+      <form id="form-suscripcion">
+        <div class="form-col">
+          <label>Nombre completo:
+            <input type="text" id="nombre" />
+            <span class="error" id="error-nombre"></span>
+          </label>
+
+          <label>Email:
+            <input type="email" id="email" />
+            <span class="error" id="error-email"></span>
+          </label>
+
+          <label>Contraseña:
+            <input type="password" id="pass" />
+            <span class="error" id="error-pass"></span>
+          </label>
+
+          <label>Repetir contraseña:
+            <input type="password" id="repass" />
+            <span class="error" id="error-repass"></span>
+          </label>
+
+          <label>Edad:
+            <input type="number" id="edad" />
+            <span class="error" id="error-edad"></span>
+          </label>
+        </div>
+
+        <div class="form-col">
+          <label>Teléfono:
+            <input type="text" id="telefono" />
+            <span class="error" id="error-telefono"></span>
+          </label>
+
+          <label>Dirección:
+            <input type="text" id="direccion" />
+            <span class="error" id="error-direccion"></span>
+          </label>
+
+          <label>Ciudad:
+            <input type="text" id="ciudad" />
+            <span class="error" id="error-ciudad"></span>
+          </label>
+
+          <label>Código Postal:
+            <input type="text" id="cp" />
+            <span class="error" id="error-cp"></span>
+          </label>
+
+          <label>DNI:
+            <input type="text" id="dni" />
+            <span class="error" id="error-dni"></span>
+          </label>
+        </div>
+
+        <div class="form-button">
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Mi Diario. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="assets/js/validacion.js"></script>
+</body>
+</html>
