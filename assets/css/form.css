@@ -54,6 +54,33 @@ body {
     text-align: center;
     margin-top: 20px;
   }
+
+  .form-button button {
+  background-color: #007BFF; /* Color principal */
+  color: #fff; /* Texto blanco */
+  border: none; /* Sin borde */
+  padding: 12px 20px; /* Espaciado interno */
+  border-radius: 4px; /* Bordes redondeados */
+  font-size: 1rem; /* Tamaño de fuente */
+  cursor: pointer; /* Cambio de cursor al pasar el mouse */
+  transition: background-color 0.3s, transform 0.2s; /* Efectos suaves */
+}
+
+.form-button button:hover {
+  background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+  transform: translateY(-2px); /* Efecto de "subir" al pasar el mouse */
+}
+
+.form-button button:active {
+  background-color: #004085; /* Aún más oscuro al hacer clic */
+  transform: translateY(0); /* Vuelve a su lugar */
+}
+
+.form-button button:focus {
+  outline: none; /* Quita el contorno predeterminado */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Sombra para enfoque accesible */
+}
+
   
   @media (max-width: 768px) {
     form {
